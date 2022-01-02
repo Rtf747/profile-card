@@ -20,22 +20,22 @@ function App() {
       <div className='content'>
        <div className='content-top'>
         <h2 className='name'>
-         Victor Crest <span>26</span>
+         Victor Crest <span className='age'>26</span>
         </h2>
         <p className='city'>London</p>
        </div>
        <div className='content-bottom'>
         <div className='Followers'>
          <h2>80k</h2>
-         <h4>Followers</h4>
+         <h4 className='description'>Followers</h4>
         </div>
         <div className='Likes'>
          <h2>803K</h2>
-         <h4>Likes</h4>
+         <h4 className='description'>Likes</h4>
         </div>
         <div className='Photos'>
          <h2>1.4K</h2>
-         <h4>Photos</h4>
+         <h4 className='description'>Photos</h4>
         </div>
        </div>
       </div>

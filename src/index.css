@@ -1,6 +1,8 @@
 body {
  margin: 0px;
  padding: 0px;
+ font-family: 'Kumbh Sans', sans-serif;
+ font-size: small;
 }
 
 .fatherContainer {
@@ -34,13 +36,13 @@ body {
  background-color: white;
  width: 100%;
  margin: 1.5rem;
- border-radius: 5%;
+ border-radius: 1rem;
 }
 
 div.header {
  background-image: url(./images/bg-pattern-card.svg);
- border-top-left-radius: 5%;
- border-top-right-radius: 5%;
+ border-top-left-radius: 1rem;
+ border-top-right-radius: 1rem;
  height: 8.875rem;
  display: flex;
  align-items: flex-end;
@@ -59,17 +61,41 @@ div.header {
  align-items: center;
  border-bottom: 1px solid rgb(221, 221, 221);
 }
-
+.age {
+ color: hsl(0, 0%, 59%);
+ font-weight: 400;
+}
 .name {
- margin-top: 4rem;
+ margin-top: 5rem;
  margin-bottom: 0.5rem;
 }
 .city {
  margin-top: 0px;
  margin-bottom: 1.5rem;
+ font-weight: 400;
+ color: hsl(0, 0%, 59%);
 }
 
 .content-bottom {
  display: flex;
  justify-content: space-evenly;
+ align-items: center;
+ flex-direction: row;
+ margin-top: 0.5rem;
+ margin-bottom: 0.5rem;
+}
+
+.description {
+ color: hsl(0, 0%, 59%);
+ font-weight: 400;
+ margin-top: -1rem;
+ letter-spacing: 0.1rem;
+}
+
+.Followers,
+.Likes,
+.Photos {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
 }
