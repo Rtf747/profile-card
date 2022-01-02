@@ -5,7 +5,7 @@ import ProfilePicture from './images/image-victor.jpg';
 function App() {
  return (
   <>
-   <div className='fatherContainer'>
+   <div className='fatherContainer' tabindex='-1'>
     <img className='PatternTop' src={PatternTop} alt='' />
     <img className='PatternBottom' src={PatternBotton} alt='' />
     <div className='container'>
