@@ -1,13 +1,75 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+ margin: 0px;
+ padding: 0px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.fatherContainer {
+ background-color: hsl(185, 75%, 39%);
+ overflow: hidden;
+ height: 100%;
+ width: 100%;
+ margin: 0;
+ position: fixed;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.PatternTop {
+ position: absolute;
+ margin: 0;
+ top: -40rem;
+ left: -46rem;
+ z-index: -1;
+}
+
+.PatternBottom {
+ position: absolute;
+ bottom: -36rem;
+ right: -45rem;
+ z-index: -1;
+}
+
+.container {
+ background-color: white;
+ width: 100%;
+ margin: 1.5rem;
+ border-radius: 5%;
+}
+
+div.header {
+ background-image: url(./images/bg-pattern-card.svg);
+ border-top-left-radius: 5%;
+ border-top-right-radius: 5%;
+ height: 8.875rem;
+ display: flex;
+ align-items: flex-end;
+ justify-content: center;
+}
+
+.profile-picture {
+ margin-bottom: -3rem;
+ border: 5px solid white;
+ border-radius: 50%;
+}
+
+.content-top {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ border-bottom: 1px solid rgb(221, 221, 221);
+}
+
+.name {
+ margin-top: 4rem;
+ margin-bottom: 0.5rem;
+}
+.city {
+ margin-top: 0px;
+ margin-bottom: 1.5rem;
+}
+
+.content-bottom {
+ display: flex;
+ justify-content: space-evenly;
 }
