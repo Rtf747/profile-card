@@ -22,9 +22,9 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 - Mobile: 375px
 
-<div align="center">
+<p align="center">
 <img src="https://user-images.githubusercontent.com/10404257/148141888-c0cbfda2-80ca-4daa-9f4a-a194cf7b1d42.png" width="375" height="667">
-</div>
+<p/>
   
   
 - Desktop: 1440px
