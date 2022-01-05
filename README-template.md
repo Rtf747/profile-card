@@ -22,7 +22,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 - Mobile: 375px
 
-![Screen Shot 2022-01-04 at 19 26 49](https://user-images.githubusercontent.com/10404257/148141888-c0cbfda2-80ca-4daa-9f4a-a194cf7b1d42.png | width=100)
+![Screen Shot 2022-01-04 at 19 26 49](https://user-images.githubusercontent.com/10404257/148141888-c0cbfda2-80ca-4daa-9f4a-a194cf7b1d42.png =100x100)
 
 - Desktop: 1440px
 
