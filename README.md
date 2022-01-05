@@ -30,7 +30,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 - Desktop: 1440px
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/10404257/148139994-2f253b93-47a0-48b1-af21-51a8505e9783.png" width="1440" height="720">
+<img src="https://user-images.githubusercontent.com/10404257/148139994-2f253b93-47a0-48b1-af21-51a8505e9783.png" width="1440" height="600">
 <p/>
 
 ### Links
